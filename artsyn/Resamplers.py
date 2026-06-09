@@ -291,6 +291,10 @@ class TestSynthesizers:
                            batch_size=batch_size, max_clusters=max_clusters, pac=10, scaler='mms11', use_classifier=True,
                            cluster_method='kmeans', sampling_strategy=sampling_strategy, random_state=random_state)
 
+        ctdgan_km_under_mms = ctdGAN(embedding_dim=emb_dim, discriminator=disc, generator=gen, epochs=epochs,
+                           batch_size=batch_size, max_clusters=max_clusters, pac=10, scaler='mms11', use_classifier=True,
+                           cluster_method='kmeans', sampling_strategy='undersample', random_state=random_state)
+
         # All over-samplers.
         self.over_samplers_ = [
             #BaseResampler(name="None", model=None, random_state=random_state),
@@ -329,14 +333,16 @@ class TestSynthesizers:
 
             #CTResampler("ctdgan_1cluster_mms", model=ctdgan_1cluster_mms, random_state=random_state),
             #CTResampler("ctdgan_unisam_mms", model=ctdgan_unisam_mms, random_state=random_state),
-            CTResampler("ctdgan_km_NoLu_mms", model=ctdgan_nolu_mms, random_state=random_state),
+            #CTResampler("ctdgan_km_NoLu_mms", model=ctdgan_nolu_mms, random_state=random_state),
+            # TODO: create a corresponding under_samplers tuple
+            CTResampler("ctdgan_km_under_mms", model=ctdgan_km_under_mms, random_state=random_state),
         ]
 
         self.over_samplers_sdv_ = [
-            SDVResampler(name="CTGAN", model=ctgan, random_state=random_state),
-            SDVResampler(name="TVAE", model=t_vae, random_state=random_state),
-            SDVResampler(name="COP-GAN", model=cop_gan, random_state=random_state),
-            SDVResampler(name="GCOP", model=g_cop, random_state=random_state),
+            #SDVResampler(name="CTGAN", model=ctgan, random_state=random_state),
+            #SDVResampler(name="TVAE", model=t_vae, random_state=random_state),
+            #SDVResampler(name="COP-GAN", model=cop_gan, random_state=random_state),
+            #SDVResampler(name="GCOP", model=g_cop, random_state=random_state),
         ]
 
         self.num_over_samplers_ = len(self.over_samplers_)
