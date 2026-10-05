@@ -1,0 +1,7 @@
+Dataset,Classifier,accuracy,balanced_accuracy,f1,precision,recall,sensitivity,specificity
+glass1,Decision Tree,0.59,0.633,0.585,0.482,0.788,0.788,0.479
+glass1,Logistic Regression,0.516,0.594,0.588,0.481,0.857,0.857,0.332
+glass1,Multilayer Perceptron,0.595,0.651,0.61,0.497,0.842,0.842,0.46
+glass1,Random Forest,0.655,0.706,0.661,0.555,0.881,0.881,0.53
+glass1,Support Vector Machine,0.525,0.61,0.599,0.471,0.896,0.896,0.324
+glass1,XGBoost,0.627,0.681,0.638,0.538,0.867,0.867,0.495

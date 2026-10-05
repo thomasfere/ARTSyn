@@ -767,7 +767,7 @@ class ctdGAN(GANSynthesizer):
         # are real (randomly selected), half GAN-generated. All others keep their real samples
         # TODO: keep real samples near decision boundaries
         elif self._sampling_strategy == 'undersample':
-            print("DEBUG: undersample elif reached!")
+            print("\nUNDERSAMPLING...\n")
             minority_class_count = int(np.min(np.array(self._samples_per_class)))
             majority_class =int(np.array(self._samples_per_class).argmax())
 
@@ -804,45 +804,8 @@ class ctdGAN(GANSynthesizer):
                     x_resampled = np.vstack((x_resampled, cls_samples))
                     y_resampled = np.hstack((y_resampled, cls_classes))
 
-        # undersample mode; Reduce the majority class to match the minority, Half of the new majority class samples
-        # are real (randomly selected), half GAN-generated. All others keep their real samples
-        # TODO: keep real samples near decision boundaries
-        elif self._sampling_strategy == 'undersample':
-            print("DEBUG: undersample elif reached!")
-            minority_class_count = int(np.min(np.array(self._samples_per_class)))
-            majority_class =int(np.array(self._samples_per_class).argmax())
-
-            half_count = minority_class_count // 2
-
-            x_resampled = None
-            y_resampled = None
-            rng = np.random.default_rng(self._random_state)
-
-            for cls in tqdm(range(self._n_classes), desc="ctdGAN Undersampling    "):
-                if cls == majority_class:
-                    # Step 1: Randomly keep half of the real majority samples
-                    real_majority = x_train[y_train == cls]
-                    n_real_keep = min(half_count, real_majority.shape[0])
-                    random_idx = rng.choice(real_majority.shape[0], size=n_real_keep, replace=False)
-                    real_kept_samples = real_majority[random_idx]
-
-                    # Step 2: Generate the rest synthetic samples to match minority class count
-                    n_synthetic = minority_class_count - n_real_keep
-                    if n_synthetic > 0:
-                        synthetic_samples = self.sample(num_samples=n_synthetic, y=cls)
-                        cls_samples = np.vstack((real_kept_samples, synthetic_samples))
-                    else:
-                        cls_samples = real_kept_samples
-                else:
-                    cls_samples = x_train[y_train == cls]
-
-                cls_classes = np.full(cls_samples.shape[0], cls)
-
-                if x_resampled is None:
-                    x_resampled = cls_samples
-                    y_resampled = cls_classes
-                else:
-                    x_resampled = np.vstack((x_resampled, cls_samples))
-                    y_resampled = np.hstack((y_resampled, cls_classes))
+            # Print resampled dataset info
+            unique, counts = np.unique(y_resampled, return_counts=True)
+            print (f"  Resampled distribution {dict(zip(unique.tolist(), counts.tolist()))} | Total: {x_resampled.shape[0]} rows")
 
         return x_resampled, y_resampled

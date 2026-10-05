@@ -1,0 +1,241 @@
+,Dataset,Fold,Sampler,Classifier,Scorer,Val
+7,glass1,1,CTD-GAN-KM-Undersample,Logistic Regression,Fit Time,4.998239994049072
+15,glass1,1,CTD-GAN-KM-Undersample,Support Vector Machine,Fit Time,4.998239994049072
+23,glass1,1,CTD-GAN-KM-Undersample,Decision Tree,Fit Time,4.998239994049072
+31,glass1,1,CTD-GAN-KM-Undersample,XGBoost,Fit Time,4.998239994049072
+39,glass1,1,CTD-GAN-KM-Undersample,Random Forest,Fit Time,4.998239994049072
+47,glass1,1,CTD-GAN-KM-Undersample,Multilayer Perceptron,Fit Time,4.998239994049072
+55,glass1,2,CTD-GAN-KM-Undersample,Logistic Regression,Fit Time,3.5081946849823
+63,glass1,2,CTD-GAN-KM-Undersample,Support Vector Machine,Fit Time,3.5081946849823
+71,glass1,2,CTD-GAN-KM-Undersample,Decision Tree,Fit Time,3.5081946849823
+79,glass1,2,CTD-GAN-KM-Undersample,XGBoost,Fit Time,3.5081946849823
+87,glass1,2,CTD-GAN-KM-Undersample,Random Forest,Fit Time,3.5081946849823
+95,glass1,2,CTD-GAN-KM-Undersample,Multilayer Perceptron,Fit Time,3.5081946849823
+103,glass1,3,CTD-GAN-KM-Undersample,Logistic Regression,Fit Time,3.6410508155822754
+111,glass1,3,CTD-GAN-KM-Undersample,Support Vector Machine,Fit Time,3.6410508155822754
+119,glass1,3,CTD-GAN-KM-Undersample,Decision Tree,Fit Time,3.6410508155822754
+127,glass1,3,CTD-GAN-KM-Undersample,XGBoost,Fit Time,3.6410508155822754
+135,glass1,3,CTD-GAN-KM-Undersample,Random Forest,Fit Time,3.6410508155822754
+143,glass1,3,CTD-GAN-KM-Undersample,Multilayer Perceptron,Fit Time,3.6410508155822754
+151,glass1,4,CTD-GAN-KM-Undersample,Logistic Regression,Fit Time,4.847866058349609
+159,glass1,4,CTD-GAN-KM-Undersample,Support Vector Machine,Fit Time,4.847866058349609
+167,glass1,4,CTD-GAN-KM-Undersample,Decision Tree,Fit Time,4.847866058349609
+175,glass1,4,CTD-GAN-KM-Undersample,XGBoost,Fit Time,4.847866058349609
+183,glass1,4,CTD-GAN-KM-Undersample,Random Forest,Fit Time,4.847866058349609
+191,glass1,4,CTD-GAN-KM-Undersample,Multilayer Perceptron,Fit Time,4.847866058349609
+199,glass1,5,CTD-GAN-KM-Undersample,Logistic Regression,Fit Time,3.393150806427002
+207,glass1,5,CTD-GAN-KM-Undersample,Support Vector Machine,Fit Time,3.393150806427002
+215,glass1,5,CTD-GAN-KM-Undersample,Decision Tree,Fit Time,3.393150806427002
+223,glass1,5,CTD-GAN-KM-Undersample,XGBoost,Fit Time,3.393150806427002
+231,glass1,5,CTD-GAN-KM-Undersample,Random Forest,Fit Time,3.393150806427002
+239,glass1,5,CTD-GAN-KM-Undersample,Multilayer Perceptron,Fit Time,3.393150806427002
+0,glass1,1,CTD-GAN-KM-Undersample,Logistic Regression,accuracy,0.3488372093023256
+8,glass1,1,CTD-GAN-KM-Undersample,Support Vector Machine,accuracy,0.3488372093023256
+16,glass1,1,CTD-GAN-KM-Undersample,Decision Tree,accuracy,0.6046511627906976
+24,glass1,1,CTD-GAN-KM-Undersample,XGBoost,accuracy,0.5348837209302325
+32,glass1,1,CTD-GAN-KM-Undersample,Random Forest,accuracy,0.5581395348837209
+40,glass1,1,CTD-GAN-KM-Undersample,Multilayer Perceptron,accuracy,0.4883720930232558
+48,glass1,2,CTD-GAN-KM-Undersample,Logistic Regression,accuracy,0.3953488372093023
+56,glass1,2,CTD-GAN-KM-Undersample,Support Vector Machine,accuracy,0.3953488372093023
+64,glass1,2,CTD-GAN-KM-Undersample,Decision Tree,accuracy,0.4883720930232558
+72,glass1,2,CTD-GAN-KM-Undersample,XGBoost,accuracy,0.6046511627906976
+80,glass1,2,CTD-GAN-KM-Undersample,Random Forest,accuracy,0.6976744186046512
+88,glass1,2,CTD-GAN-KM-Undersample,Multilayer Perceptron,accuracy,0.5348837209302325
+96,glass1,3,CTD-GAN-KM-Undersample,Logistic Regression,accuracy,0.32558139534883723
+104,glass1,3,CTD-GAN-KM-Undersample,Support Vector Machine,accuracy,0.3488372093023256
+112,glass1,3,CTD-GAN-KM-Undersample,Decision Tree,accuracy,0.5581395348837209
+120,glass1,3,CTD-GAN-KM-Undersample,XGBoost,accuracy,0.5813953488372093
+128,glass1,3,CTD-GAN-KM-Undersample,Random Forest,accuracy,0.5813953488372093
+136,glass1,3,CTD-GAN-KM-Undersample,Multilayer Perceptron,accuracy,0.5116279069767442
+144,glass1,4,CTD-GAN-KM-Undersample,Logistic Regression,accuracy,0.5813953488372093
+152,glass1,4,CTD-GAN-KM-Undersample,Support Vector Machine,accuracy,0.627906976744186
+160,glass1,4,CTD-GAN-KM-Undersample,Decision Tree,accuracy,0.4883720930232558
+168,glass1,4,CTD-GAN-KM-Undersample,XGBoost,accuracy,0.5348837209302325
+176,glass1,4,CTD-GAN-KM-Undersample,Random Forest,accuracy,0.5348837209302325
+184,glass1,4,CTD-GAN-KM-Undersample,Multilayer Perceptron,accuracy,0.5813953488372093
+192,glass1,5,CTD-GAN-KM-Undersample,Logistic Regression,accuracy,0.9285714285714286
+200,glass1,5,CTD-GAN-KM-Undersample,Support Vector Machine,accuracy,0.9047619047619048
+208,glass1,5,CTD-GAN-KM-Undersample,Decision Tree,accuracy,0.8095238095238095
+216,glass1,5,CTD-GAN-KM-Undersample,XGBoost,accuracy,0.8809523809523809
+224,glass1,5,CTD-GAN-KM-Undersample,Random Forest,accuracy,0.9047619047619048
+232,glass1,5,CTD-GAN-KM-Undersample,Multilayer Perceptron,accuracy,0.8571428571428571
+1,glass1,1,CTD-GAN-KM-Undersample,Logistic Regression,balanced_accuracy,0.46904761904761905
+9,glass1,1,CTD-GAN-KM-Undersample,Support Vector Machine,balanced_accuracy,0.46904761904761905
+17,glass1,1,CTD-GAN-KM-Undersample,Decision Tree,balanced_accuracy,0.6190476190476191
+25,glass1,1,CTD-GAN-KM-Undersample,XGBoost,balanced_accuracy,0.5964285714285714
+33,glass1,1,CTD-GAN-KM-Undersample,Random Forest,balanced_accuracy,0.6142857142857143
+41,glass1,1,CTD-GAN-KM-Undersample,Multilayer Perceptron,balanced_accuracy,0.5607142857142857
+49,glass1,2,CTD-GAN-KM-Undersample,Logistic Regression,balanced_accuracy,0.5202380952380953
+57,glass1,2,CTD-GAN-KM-Undersample,Support Vector Machine,balanced_accuracy,0.5202380952380953
+65,glass1,2,CTD-GAN-KM-Undersample,Decision Tree,balanced_accuracy,0.5297619047619048
+73,glass1,2,CTD-GAN-KM-Undersample,XGBoost,balanced_accuracy,0.680952380952381
+81,glass1,2,CTD-GAN-KM-Undersample,Random Forest,balanced_accuracy,0.7678571428571428
+89,glass1,2,CTD-GAN-KM-Undersample,Multilayer Perceptron,balanced_accuracy,0.611904761904762
+97,glass1,3,CTD-GAN-KM-Undersample,Logistic Regression,balanced_accuracy,0.4511904761904762
+105,glass1,3,CTD-GAN-KM-Undersample,Support Vector Machine,balanced_accuracy,0.4845238095238095
+113,glass1,3,CTD-GAN-KM-Undersample,Decision Tree,balanced_accuracy,0.6452380952380953
+121,glass1,3,CTD-GAN-KM-Undersample,XGBoost,balanced_accuracy,0.6630952380952381
+129,glass1,3,CTD-GAN-KM-Undersample,Random Forest,balanced_accuracy,0.6476190476190476
+137,glass1,3,CTD-GAN-KM-Undersample,Multilayer Perceptron,balanced_accuracy,0.6095238095238096
+145,glass1,4,CTD-GAN-KM-Undersample,Logistic Regression,balanced_accuracy,0.6157407407407407
+153,glass1,4,CTD-GAN-KM-Undersample,Support Vector Machine,balanced_accuracy,0.6655092592592593
+161,glass1,4,CTD-GAN-KM-Undersample,Decision Tree,balanced_accuracy,0.5798611111111112
+169,glass1,4,CTD-GAN-KM-Undersample,XGBoost,balanced_accuracy,0.6168981481481481
+177,glass1,4,CTD-GAN-KM-Undersample,Random Forest,balanced_accuracy,0.6168981481481481
+185,glass1,4,CTD-GAN-KM-Undersample,Multilayer Perceptron,balanced_accuracy,0.6284722222222222
+193,glass1,5,CTD-GAN-KM-Undersample,Logistic Regression,balanced_accuracy,0.9148148148148147
+201,glass1,5,CTD-GAN-KM-Undersample,Support Vector Machine,balanced_accuracy,0.9111111111111111
+209,glass1,5,CTD-GAN-KM-Undersample,Decision Tree,balanced_accuracy,0.7925925925925925
+217,glass1,5,CTD-GAN-KM-Undersample,XGBoost,balanced_accuracy,0.8481481481481481
+225,glass1,5,CTD-GAN-KM-Undersample,Random Forest,balanced_accuracy,0.8814814814814815
+233,glass1,5,CTD-GAN-KM-Undersample,Multilayer Perceptron,balanced_accuracy,0.8444444444444444
+4,glass1,1,CTD-GAN-KM-Undersample,Logistic Regression,f1,0.48148148148148145
+12,glass1,1,CTD-GAN-KM-Undersample,Support Vector Machine,f1,0.48148148148148145
+20,glass1,1,CTD-GAN-KM-Undersample,Decision Tree,f1,0.5405405405405406
+28,glass1,1,CTD-GAN-KM-Undersample,XGBoost,f1,0.5454545454545454
+36,glass1,1,CTD-GAN-KM-Undersample,Random Forest,f1,0.5581395348837209
+44,glass1,1,CTD-GAN-KM-Undersample,Multilayer Perceptron,f1,0.5217391304347826
+52,glass1,2,CTD-GAN-KM-Undersample,Logistic Regression,f1,0.5185185185185185
+60,glass1,2,CTD-GAN-KM-Undersample,Support Vector Machine,f1,0.5185185185185185
+68,glass1,2,CTD-GAN-KM-Undersample,Decision Tree,f1,0.47619047619047616
+76,glass1,2,CTD-GAN-KM-Undersample,XGBoost,f1,0.6222222222222222
+84,glass1,2,CTD-GAN-KM-Undersample,Random Forest,f1,0.6976744186046512
+92,glass1,2,CTD-GAN-KM-Undersample,Multilayer Perceptron,f1,0.5652173913043478
+100,glass1,3,CTD-GAN-KM-Undersample,Logistic Regression,f1,0.4727272727272727
+108,glass1,3,CTD-GAN-KM-Undersample,Support Vector Machine,f1,0.5
+116,glass1,3,CTD-GAN-KM-Undersample,Decision Tree,f1,0.5957446808510638
+124,glass1,3,CTD-GAN-KM-Undersample,XGBoost,f1,0.6086956521739131
+132,glass1,3,CTD-GAN-KM-Undersample,Random Forest,f1,0.5909090909090909
+140,glass1,3,CTD-GAN-KM-Undersample,Multilayer Perceptron,f1,0.5714285714285714
+148,glass1,4,CTD-GAN-KM-Undersample,Logistic Regression,f1,0.5714285714285714
+156,glass1,4,CTD-GAN-KM-Undersample,Support Vector Machine,f1,0.6190476190476191
+164,glass1,4,CTD-GAN-KM-Undersample,Decision Tree,f1,0.5769230769230769
+172,glass1,4,CTD-GAN-KM-Undersample,XGBoost,f1,0.6
+180,glass1,4,CTD-GAN-KM-Undersample,Random Forest,f1,0.6
+188,glass1,4,CTD-GAN-KM-Undersample,Multilayer Perceptron,f1,0.5909090909090909
+196,glass1,5,CTD-GAN-KM-Undersample,Logistic Regression,f1,0.896551724137931
+204,glass1,5,CTD-GAN-KM-Undersample,Support Vector Machine,f1,0.875
+212,glass1,5,CTD-GAN-KM-Undersample,Decision Tree,f1,0.7333333333333333
+220,glass1,5,CTD-GAN-KM-Undersample,XGBoost,f1,0.8148148148148148
+228,glass1,5,CTD-GAN-KM-Undersample,Random Forest,f1,0.8571428571428571
+236,glass1,5,CTD-GAN-KM-Undersample,Multilayer Perceptron,f1,0.8
+5,glass1,1,CTD-GAN-KM-Undersample,Logistic Regression,precision,0.3333333333333333
+13,glass1,1,CTD-GAN-KM-Undersample,Support Vector Machine,precision,0.3333333333333333
+21,glass1,1,CTD-GAN-KM-Undersample,Decision Tree,precision,0.45454545454545453
+29,glass1,1,CTD-GAN-KM-Undersample,XGBoost,precision,0.41379310344827586
+37,glass1,1,CTD-GAN-KM-Undersample,Random Forest,precision,0.42857142857142855
+45,glass1,1,CTD-GAN-KM-Undersample,Multilayer Perceptron,precision,0.3870967741935484
+53,glass1,2,CTD-GAN-KM-Undersample,Logistic Regression,precision,0.358974358974359
+61,glass1,2,CTD-GAN-KM-Undersample,Support Vector Machine,precision,0.358974358974359
+69,glass1,2,CTD-GAN-KM-Undersample,Decision Tree,precision,0.37037037037037035
+77,glass1,2,CTD-GAN-KM-Undersample,XGBoost,precision,0.4666666666666667
+85,glass1,2,CTD-GAN-KM-Undersample,Random Forest,precision,0.5357142857142857
+93,glass1,2,CTD-GAN-KM-Undersample,Multilayer Perceptron,precision,0.41935483870967744
+101,glass1,3,CTD-GAN-KM-Undersample,Logistic Regression,precision,0.325
+109,glass1,3,CTD-GAN-KM-Undersample,Support Vector Machine,precision,0.34146341463414637
+117,glass1,3,CTD-GAN-KM-Undersample,Decision Tree,precision,0.4375
+125,glass1,3,CTD-GAN-KM-Undersample,XGBoost,precision,0.45161290322580644
+133,glass1,3,CTD-GAN-KM-Undersample,Random Forest,precision,0.4482758620689655
+141,glass1,3,CTD-GAN-KM-Undersample,Multilayer Perceptron,precision,0.4117647058823529
+149,glass1,4,CTD-GAN-KM-Undersample,Logistic Regression,precision,0.46153846153846156
+157,glass1,4,CTD-GAN-KM-Undersample,Support Vector Machine,precision,0.5
+165,glass1,4,CTD-GAN-KM-Undersample,Decision Tree,precision,0.4166666666666667
+173,glass1,4,CTD-GAN-KM-Undersample,XGBoost,precision,0.4411764705882353
+181,glass1,4,CTD-GAN-KM-Undersample,Random Forest,precision,0.4411764705882353
+189,glass1,4,CTD-GAN-KM-Undersample,Multilayer Perceptron,precision,0.4642857142857143
+197,glass1,5,CTD-GAN-KM-Undersample,Logistic Regression,precision,0.9285714285714286
+205,glass1,5,CTD-GAN-KM-Undersample,Support Vector Machine,precision,0.8235294117647058
+213,glass1,5,CTD-GAN-KM-Undersample,Decision Tree,precision,0.7333333333333333
+221,glass1,5,CTD-GAN-KM-Undersample,XGBoost,precision,0.9166666666666666
+229,glass1,5,CTD-GAN-KM-Undersample,Random Forest,precision,0.9230769230769231
+237,glass1,5,CTD-GAN-KM-Undersample,Multilayer Perceptron,precision,0.8
+6,glass1,1,CTD-GAN-KM-Undersample,Logistic Regression,recall,0.8666666666666667
+14,glass1,1,CTD-GAN-KM-Undersample,Support Vector Machine,recall,0.8666666666666667
+22,glass1,1,CTD-GAN-KM-Undersample,Decision Tree,recall,0.6666666666666666
+30,glass1,1,CTD-GAN-KM-Undersample,XGBoost,recall,0.8
+38,glass1,1,CTD-GAN-KM-Undersample,Random Forest,recall,0.8
+46,glass1,1,CTD-GAN-KM-Undersample,Multilayer Perceptron,recall,0.8
+54,glass1,2,CTD-GAN-KM-Undersample,Logistic Regression,recall,0.9333333333333333
+62,glass1,2,CTD-GAN-KM-Undersample,Support Vector Machine,recall,0.9333333333333333
+70,glass1,2,CTD-GAN-KM-Undersample,Decision Tree,recall,0.6666666666666666
+78,glass1,2,CTD-GAN-KM-Undersample,XGBoost,recall,0.9333333333333333
+86,glass1,2,CTD-GAN-KM-Undersample,Random Forest,recall,1.0
+94,glass1,2,CTD-GAN-KM-Undersample,Multilayer Perceptron,recall,0.8666666666666667
+102,glass1,3,CTD-GAN-KM-Undersample,Logistic Regression,recall,0.8666666666666667
+110,glass1,3,CTD-GAN-KM-Undersample,Support Vector Machine,recall,0.9333333333333333
+118,glass1,3,CTD-GAN-KM-Undersample,Decision Tree,recall,0.9333333333333333
+126,glass1,3,CTD-GAN-KM-Undersample,XGBoost,recall,0.9333333333333333
+134,glass1,3,CTD-GAN-KM-Undersample,Random Forest,recall,0.8666666666666667
+142,glass1,3,CTD-GAN-KM-Undersample,Multilayer Perceptron,recall,0.9333333333333333
+150,glass1,4,CTD-GAN-KM-Undersample,Logistic Regression,recall,0.75
+158,glass1,4,CTD-GAN-KM-Undersample,Support Vector Machine,recall,0.8125
+166,glass1,4,CTD-GAN-KM-Undersample,Decision Tree,recall,0.9375
+174,glass1,4,CTD-GAN-KM-Undersample,XGBoost,recall,0.9375
+182,glass1,4,CTD-GAN-KM-Undersample,Random Forest,recall,0.9375
+190,glass1,4,CTD-GAN-KM-Undersample,Multilayer Perceptron,recall,0.8125
+198,glass1,5,CTD-GAN-KM-Undersample,Logistic Regression,recall,0.8666666666666667
+206,glass1,5,CTD-GAN-KM-Undersample,Support Vector Machine,recall,0.9333333333333333
+214,glass1,5,CTD-GAN-KM-Undersample,Decision Tree,recall,0.7333333333333333
+222,glass1,5,CTD-GAN-KM-Undersample,XGBoost,recall,0.7333333333333333
+230,glass1,5,CTD-GAN-KM-Undersample,Random Forest,recall,0.8
+238,glass1,5,CTD-GAN-KM-Undersample,Multilayer Perceptron,recall,0.8
+2,glass1,1,CTD-GAN-KM-Undersample,Logistic Regression,sensitivity,0.8666666666666667
+10,glass1,1,CTD-GAN-KM-Undersample,Support Vector Machine,sensitivity,0.8666666666666667
+18,glass1,1,CTD-GAN-KM-Undersample,Decision Tree,sensitivity,0.6666666666666666
+26,glass1,1,CTD-GAN-KM-Undersample,XGBoost,sensitivity,0.8
+34,glass1,1,CTD-GAN-KM-Undersample,Random Forest,sensitivity,0.8
+42,glass1,1,CTD-GAN-KM-Undersample,Multilayer Perceptron,sensitivity,0.8
+50,glass1,2,CTD-GAN-KM-Undersample,Logistic Regression,sensitivity,0.9333333333333333
+58,glass1,2,CTD-GAN-KM-Undersample,Support Vector Machine,sensitivity,0.9333333333333333
+66,glass1,2,CTD-GAN-KM-Undersample,Decision Tree,sensitivity,0.6666666666666666
+74,glass1,2,CTD-GAN-KM-Undersample,XGBoost,sensitivity,0.9333333333333333
+82,glass1,2,CTD-GAN-KM-Undersample,Random Forest,sensitivity,1.0
+90,glass1,2,CTD-GAN-KM-Undersample,Multilayer Perceptron,sensitivity,0.8666666666666667
+98,glass1,3,CTD-GAN-KM-Undersample,Logistic Regression,sensitivity,0.8666666666666667
+106,glass1,3,CTD-GAN-KM-Undersample,Support Vector Machine,sensitivity,0.9333333333333333
+114,glass1,3,CTD-GAN-KM-Undersample,Decision Tree,sensitivity,0.9333333333333333
+122,glass1,3,CTD-GAN-KM-Undersample,XGBoost,sensitivity,0.9333333333333333
+130,glass1,3,CTD-GAN-KM-Undersample,Random Forest,sensitivity,0.8666666666666667
+138,glass1,3,CTD-GAN-KM-Undersample,Multilayer Perceptron,sensitivity,0.9333333333333333
+146,glass1,4,CTD-GAN-KM-Undersample,Logistic Regression,sensitivity,0.75
+154,glass1,4,CTD-GAN-KM-Undersample,Support Vector Machine,sensitivity,0.8125
+162,glass1,4,CTD-GAN-KM-Undersample,Decision Tree,sensitivity,0.9375
+170,glass1,4,CTD-GAN-KM-Undersample,XGBoost,sensitivity,0.9375
+178,glass1,4,CTD-GAN-KM-Undersample,Random Forest,sensitivity,0.9375
+186,glass1,4,CTD-GAN-KM-Undersample,Multilayer Perceptron,sensitivity,0.8125
+194,glass1,5,CTD-GAN-KM-Undersample,Logistic Regression,sensitivity,0.8666666666666667
+202,glass1,5,CTD-GAN-KM-Undersample,Support Vector Machine,sensitivity,0.9333333333333333
+210,glass1,5,CTD-GAN-KM-Undersample,Decision Tree,sensitivity,0.7333333333333333
+218,glass1,5,CTD-GAN-KM-Undersample,XGBoost,sensitivity,0.7333333333333333
+226,glass1,5,CTD-GAN-KM-Undersample,Random Forest,sensitivity,0.8
+234,glass1,5,CTD-GAN-KM-Undersample,Multilayer Perceptron,sensitivity,0.8
+3,glass1,1,CTD-GAN-KM-Undersample,Logistic Regression,specificity,0.07142857142857142
+11,glass1,1,CTD-GAN-KM-Undersample,Support Vector Machine,specificity,0.07142857142857142
+19,glass1,1,CTD-GAN-KM-Undersample,Decision Tree,specificity,0.5714285714285714
+27,glass1,1,CTD-GAN-KM-Undersample,XGBoost,specificity,0.39285714285714285
+35,glass1,1,CTD-GAN-KM-Undersample,Random Forest,specificity,0.42857142857142855
+43,glass1,1,CTD-GAN-KM-Undersample,Multilayer Perceptron,specificity,0.32142857142857145
+51,glass1,2,CTD-GAN-KM-Undersample,Logistic Regression,specificity,0.10714285714285714
+59,glass1,2,CTD-GAN-KM-Undersample,Support Vector Machine,specificity,0.10714285714285714
+67,glass1,2,CTD-GAN-KM-Undersample,Decision Tree,specificity,0.39285714285714285
+75,glass1,2,CTD-GAN-KM-Undersample,XGBoost,specificity,0.42857142857142855
+83,glass1,2,CTD-GAN-KM-Undersample,Random Forest,specificity,0.5357142857142857
+91,glass1,2,CTD-GAN-KM-Undersample,Multilayer Perceptron,specificity,0.35714285714285715
+99,glass1,3,CTD-GAN-KM-Undersample,Logistic Regression,specificity,0.03571428571428571
+107,glass1,3,CTD-GAN-KM-Undersample,Support Vector Machine,specificity,0.03571428571428571
+115,glass1,3,CTD-GAN-KM-Undersample,Decision Tree,specificity,0.35714285714285715
+123,glass1,3,CTD-GAN-KM-Undersample,XGBoost,specificity,0.39285714285714285
+131,glass1,3,CTD-GAN-KM-Undersample,Random Forest,specificity,0.42857142857142855
+139,glass1,3,CTD-GAN-KM-Undersample,Multilayer Perceptron,specificity,0.2857142857142857
+147,glass1,4,CTD-GAN-KM-Undersample,Logistic Regression,specificity,0.48148148148148145
+155,glass1,4,CTD-GAN-KM-Undersample,Support Vector Machine,specificity,0.5185185185185185
+163,glass1,4,CTD-GAN-KM-Undersample,Decision Tree,specificity,0.2222222222222222
+171,glass1,4,CTD-GAN-KM-Undersample,XGBoost,specificity,0.2962962962962963
+179,glass1,4,CTD-GAN-KM-Undersample,Random Forest,specificity,0.2962962962962963
+187,glass1,4,CTD-GAN-KM-Undersample,Multilayer Perceptron,specificity,0.4444444444444444
+195,glass1,5,CTD-GAN-KM-Undersample,Logistic Regression,specificity,0.9629629629629629
+203,glass1,5,CTD-GAN-KM-Undersample,Support Vector Machine,specificity,0.8888888888888888
+211,glass1,5,CTD-GAN-KM-Undersample,Decision Tree,specificity,0.8518518518518519
+219,glass1,5,CTD-GAN-KM-Undersample,XGBoost,specificity,0.9629629629629629
+227,glass1,5,CTD-GAN-KM-Undersample,Random Forest,specificity,0.9629629629629629
+235,glass1,5,CTD-GAN-KM-Undersample,Multilayer Perceptron,specificity,0.8888888888888888

@@ -1,10 +1,12 @@
 import os
 import sys
-
+import glob
 import numpy as np
-
+import pandas as pd
 import DeepCoreML.eval as eval_methods
 import DeepCoreML.paths as paths
+
+from artsyn.generators.ctabganplus_synthesizer import Classifier
 
 num_threads = 1
 os.environ['OMP_NUM_THREADS'] = str(num_threads)
@@ -49,7 +51,7 @@ datasets = {
     #'ecoli2': {'path': paths.bin_cont + 'ecoli2.csv', 'categorical_cols': (), 'class_col': 7},
     #'ecoli3': {'path': paths.bin_cont + 'ecoli3.csv', 'categorical_cols': (), 'class_col': 7},
     #'FetalHealth': {'path': paths.multi_mix + 'fetal_health.csv', 'categorical_cols': (20,), 'class_col': 21},
-    #'glass1': {'path': paths.bin_cont + 'glass1.csv', 'categorical_cols': (), 'class_col': 9},
+    'glass1': {'path': paths.bin_cont + 'glass1.csv', 'categorical_cols': (), 'class_col': 9},
     #'glass4': {'path': paths.bin_cont + 'glass4.csv', 'categorical_cols': (), 'class_col': 9},
     #'heart': {'path': paths.bin_mix + 'heart.csv', 'categorical_cols': (1, 2, 6, 8, 10, 12), 'class_col': 13},
     #'new-thyroid': {'path': paths.multi_cont + 'new-thyroid.csv', 'categorical_cols': (), 'class_col': 5},
@@ -82,3 +84,16 @@ if __name__ == '__main__':
 
     # Experiments performed in the Information Sciences 2024 paper
     # eval_methods.eval_oversampling_efficacy(datasets_imb, num_threads, seed)
+
+# Create summary performance results per dataset after Under-sampling
+csv_files = glob.glob(paths.resampling_path_split_files + '*.csv')
+for csv_file in csv_files:
+    df = pd.read_csv(csv_file , index_col = 0)
+    final_df = df[df['Scorer'] != 'Fit Time'] # exclude the fit-time col
+    summary = final_df.pivot_table(index=['Dataset', 'Classifier'], columns='Scorer', values='Val', aggfunc='mean').round(3)
+
+    dataset_name = df['Dataset'].iloc[0]
+    summary.to_csv(paths.resampling_path_performance + f'summary_{dataset_name}.csv')
+
+    print("\nDataset: ", dataset_name)
+    print(summary)

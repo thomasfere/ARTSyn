@@ -1,0 +1,7 @@
+Dataset,Classifier,accuracy,balanced_accuracy,f1,precision,recall,sensitivity,specificity
+ecoli1,Decision Tree,0.839,0.878,0.759,0.665,0.948,0.948,0.807
+ecoli1,Logistic Regression,0.869,0.879,0.792,0.749,0.896,0.896,0.861
+ecoli1,Multilayer Perceptron,0.821,0.848,0.737,0.666,0.898,0.898,0.799
+ecoli1,Random Forest,0.875,0.906,0.819,0.755,0.962,0.962,0.85
+ecoli1,Support Vector Machine,0.86,0.881,0.782,0.712,0.921,0.921,0.842
+ecoli1,XGBoost,0.863,0.885,0.791,0.736,0.923,0.923,0.846
